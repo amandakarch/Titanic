@@ -64,3 +64,5 @@ df$Survived[892:1309] = predicted_survival
 submitting = df[c(892:1309),c(1,12)]
 submitting$Survived = as.numeric(submitting$Survived)
 write.csv(submitting, 'C:/Users/akarch1/Desktop/Analytics_Portfolio/Kaggle/titanic/submission1.csv') # had to manually delete first column to keep format right
+
+# Submission 1 on Kaggle: 76.55% of passengers who survived predicted correctly.
